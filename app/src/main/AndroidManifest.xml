@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.mime.androidadvanceanimation"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.mime.androidadvanceanimation.MainActivity"
+            android:label="Android高级动画">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mime.androidadvanceanimation.TweenActivity"
+                  android:label="Tween动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.FrameActivity"
+                  android:label="Frame动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.PropertyActivity"
+                  android:label="属性动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.ActivityTransitionActivity"
+                  android:label="Activity跳转动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.Activity2"
+                  android:label="Activity2"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.BActivity"
+                  android:label="BActivity"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.CActivity"
+                  android:label="CActivity"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.DActivity"
+                  android:label="列表"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.DetailActivity"
+                  android:label="详情"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.AnimatedVectorActivity"
+                  android:label="矢量动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.CircularRevealActivity"
+                  android:label="揭示效果"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.DrawPathActivity"
+                  android:label="绘制Path"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.CustomSVGActivity"
+                  android:label="自定义SVG动画"/>
+
+        <activity android:name="com.mime.androidadvanceanimation.PathAnimActivity"
+                  android:label="Path路径运动"/>
+
+        <activity android:name=".AnimPathViewActivity"
+                  android:label="Path路径运动"/>
+        <activity android:name=".CustomSVGActivity2"/>
+    </application>
+
+</manifest>

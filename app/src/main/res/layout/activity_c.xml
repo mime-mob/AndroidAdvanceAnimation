@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp">
+
+    <View
+        android:id="@+id/holder_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="?android:colorPrimary"
+        android:transitionName="share" />
+
+    <TextView
+        android:id="@+id/tx_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        android:text="Android"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:elevation="5dp"
+        android:transitionName="user_name"
+        android:textColor="#fafafa"/>
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/holder_view"
+        android:layout_marginTop="-80dp"
+        android:background="@mipmap/ic_launcher"
+        android:elevation="5dp"
+        android:transitionName="fab" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/holder_view"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/button1"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

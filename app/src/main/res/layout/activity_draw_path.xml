@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mime.common_anim_util.path_view.PathView
+            android:id="@+id/pathView"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:background="#10f00000"
+            app:pathColor="@android:color/holo_red_dark"
+            app:pathWidth="3"
+            app:svg="@raw/android"/>
+
+        <Button
+            android:id="@+id/btn_start_path_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="startPathView"
+            android:text="开始动画"/>
+
+        <ImageView
+            android:id="@+id/iv_demo"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="16dp"/>
+
+        <com.mime.androidadvanceanimation.view.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_start_searchview_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="startSearchView"
+            android:text="开始动画"/>
+    </LinearLayout>
+</ScrollView>

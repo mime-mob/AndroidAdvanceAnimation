@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="PathView">
+    <attr name="pathColor"
+        format="color"/>
+    <attr name="pathWidth"
+        format="float"/>
+    <attr name="svg"
+        format="reference"/>
+  </declare-styleable>
+
+  <declare-styleable name="TransPathView">
+    <attr name="strokeType" format="enum">
+      <enum name="stroke" value="1" />
+      <enum name="fill" value="2" />
+      <enum name="stroke_fill" value="4" />
+    </attr>
+    <attr name="strokeColor" format="color|reference"/>
+    <attr name="animDuration" format="integer|reference"/>
+    <attr name="path1" format="string|reference"/>
+    <attr name="path2" format="string|reference"/>
+    <attr name="viewPortWidth" format="integer|reference"/>
+    <attr name="viewPortHeight" format="integer|reference"/>
+    <attr name="strokeWidth" format="dimension|reference"/>
+  </declare-styleable>
+</resources>

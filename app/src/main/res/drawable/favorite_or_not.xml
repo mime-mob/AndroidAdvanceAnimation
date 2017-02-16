@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favorite"
+        android:drawable="@drawable/vd_favorite"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/not_favorite"
+        android:drawable="@drawable/vd_not_favorite"/>
+
+    <transition
+        android:drawable="@drawable/avd_be_favorite"
+        android:fromId="@id/not_favorite"
+        android:toId="@id/favorite"/>
+
+    <transition
+        android:drawable="@drawable/avd_be_not_favorite"
+        android:fromId="@id/favorite"
+        android:toId="@id/not_favorite"/>
+</animated-selector>
