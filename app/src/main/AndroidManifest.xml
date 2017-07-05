@@ -59,8 +59,6 @@
         <activity android:name="com.mime.androidadvanceanimation.PathAnimActivity"
                   android:label="Path路径运动"/>
 
-        <activity android:name=".AnimPathViewActivity"
-                  android:label="Path路径运动"/>
         <activity android:name=".CustomSVGActivity2"/>
     </application>
 

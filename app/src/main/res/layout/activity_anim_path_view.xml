@@ -9,14 +9,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.mime.common_anim_util.anim_path_view.PathAnimView
+        <com.mime.commonanim.anim_path_view.PathAnimView
             android:id="@+id/path_anim_view_1"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:background="@color/color_bg"
             android:padding="10dp"/>
 
-        <com.mime.common_anim_util.anim_path_view.PathAnimView
+        <com.mime.commonanim.anim_path_view.PathAnimView
             android:id="@+id/path_anim_view_2"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -24,7 +24,7 @@
             android:background="@color/color_bg"
             android:padding="10dp"/>
 
-        <com.mime.common_anim_util.anim_path_view.StoreHouseAnimView
+        <com.mime.commonanim.anim_path_view.StoreHouseAnimView
             android:id="@+id/store_house_view_1"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -32,7 +32,7 @@
             android:background="@color/color_bg"
             android:padding="10dp"/>
 
-        <com.mime.common_anim_util.anim_path_view.StoreHouseAnimView
+        <com.mime.commonanim.anim_path_view.StoreHouseAnimView
             android:id="@+id/store_house_view_2"
             android:layout_width="wrap_content"
             android:layout_height="100dp"

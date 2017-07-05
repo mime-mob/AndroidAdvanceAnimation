@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.widget.ImageView;
 
-import com.mime.common_anim_util.animator.CommonAnimator;
-
 /**
  * <p>write the description
  *
@@ -44,18 +42,12 @@ public class CircularRevealActivity extends AppCompatActivity implements View.On
             case R.id.oval:
                 Animator animator1 = ViewAnimationUtils.createCircularReveal(oval, oval.getWidth() / 2, oval.getHeight() / 2, oval.getWidth(), 0);
                 animator1.setDuration(2000);
-                animator1.setInterpolator(null);
-                animator1.addListener(null);
                 animator1.start();
-
-//                CommonAnimator.circularReveal(oval, oval.getWidth() / 2, oval.getHeight() / 2, oval.getWidth(), 0).duration(1000).decelerate().start();
                 break;
             case R.id.rect:
-//                Animator animator2 = ViewAnimationUtils.createCircularReveal(rect, 0, 0, 0, (float) Math.hypot(rect.getWidth(), rect.getHeight()));
-//                animator2.setDuration(2000);
-//                animator2.start();
-
-                CommonAnimator.circularReveal(rect, 0, 0, 0, (float) Math.hypot(rect.getWidth(), rect.getHeight())).duration(1000).decelerate().start();
+                Animator animator2 = ViewAnimationUtils.createCircularReveal(rect, 0, 0, 0, (float) Math.hypot(rect.getWidth(), rect.getHeight()));
+                animator2.setDuration(2000);
+                animator2.start();
                 break;
         }
     }

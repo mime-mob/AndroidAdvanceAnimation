@@ -13,8 +13,8 @@ import android.widget.ImageView;
 
 import com.caverock.androidsvg.SVG;
 import com.caverock.androidsvg.SVGParseException;
-import com.mime.androidadvanceanimation.view.SearchView;
-import com.mime.common_anim_util.path_view.PathView;
+import com.mime.commonanim.pathview.PathView;
+import com.mime.commonanim.trimpathview.SearchView;
 
 /**
  * <p>write the description

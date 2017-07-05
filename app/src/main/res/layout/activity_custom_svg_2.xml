@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <com.mime.common_anim_util.transpathview.TransPathView
+    <com.mime.commonanim.pathmorphingview.TransPathView
         android:id="@+id/trans_path_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -19,4 +19,10 @@
         trans:strokeType="fill"
         trans:strokeColor="#2458ff"
         trans:strokeWidth="2dp"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>

@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
@@ -29,5 +30,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.android.support:recyclerview-v7:+'
     compile 'com.android.support:design:25.0.1'
-    compile project(':common-anim-util')
+    compile project(':common-anim-lib')
+    compile 'com.android.support:multidex:1.0.1'
 }

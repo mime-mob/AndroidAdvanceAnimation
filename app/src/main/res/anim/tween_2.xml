@@ -4,12 +4,12 @@
     android:repeatCount="20" >
 
     <translate android:fromXDelta="0%"
-            android:toXDelta="200%"
+            android:toXDelta="300%"
             android:duration="1000" />
 
     <alpha
         android:fromAlpha="1"
         android:toAlpha="0"
-        android:duration="300"
+        android:duration="1000"
         android:startOffset="1000" />
 </set>

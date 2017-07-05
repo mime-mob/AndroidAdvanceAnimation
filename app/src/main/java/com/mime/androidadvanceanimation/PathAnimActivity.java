@@ -7,12 +7,8 @@ import android.graphics.Path;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
-
-import com.mime.common_anim_util.animator.CommonAnimator;
 
 /**
  * <p>write the description for the file
@@ -42,16 +38,14 @@ public class PathAnimActivity extends AppCompatActivity {
     public void startAnim(View view) {
         Path path = new Path();
         path.moveTo(100, 100);
-        path.quadTo(screenWidth - 300, 200, screenWidth - 100, screenHeight - 300);
+        path.quadTo(screenWidth - 300, 200, screenWidth - 100, screenHeight - 600);
 
         ObjectAnimator animator = ObjectAnimator.ofFloat(iv, View.X, View.Y, path);
-        animator.setStartDelay(500);
-        animator.setDuration(3000);
-        animator.setRepeatCount(ValueAnimator.INFINITE);
+        animator.setDuration(2000);
+        animator.setRepeatCount(1);
         animator.setRepeatMode(ValueAnimator.REVERSE);
-        animator.setInterpolator(new LinearInterpolator());
         animator.start();
 
-        CommonAnimator.animatePath(iv, path).duration(2000).delay(0).repeat(1, ValueAnimator.REVERSE).fastOutSlowIn().start();
+//        CommonAnimator.animatePath(iv, path).duration(2000).delay(0).repeat(1, ValueAnimator.REVERSE).fastOutSlowIn().start();
     }
 }

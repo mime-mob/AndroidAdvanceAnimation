@@ -73,6 +73,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="gotoPathAnim"
+            android:layout_marginTop="32dp"
             android:text="基于path运动"/>
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:textSize="76sp"
+            android:textColor="#00bcd4"
+            android:textStyle="bold"
+            android:text="0"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startNumberAnimator"
+            android:layout_marginTop="32dp"
+            android:text="开始动画"/>
     </LinearLayout>
 </ScrollView>

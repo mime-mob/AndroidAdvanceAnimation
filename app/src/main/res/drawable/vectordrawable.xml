@@ -14,5 +14,4 @@
             android:fillColor="#000000"
             android:pathData="M10,10 L60,10 L60,20 L10,20 Z M10,30 L60,30 L60,40 L10,40 Z M10,50 L60,50 L60,60 L10,60 Z" />
     </group>
-
 </vector>

@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.mime.common_anim_util.transpathview.TransPathView;
+import com.mime.commonanim.pathmorphingview.TransPathView;
 
 
 /**

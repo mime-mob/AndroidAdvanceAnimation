@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.mime.common_anim_util.path_view.PathView
+        <com.mime.commonanim.pathview.PathView
             android:id="@+id/pathView"
             android:layout_width="match_parent"
             android:layout_height="240dp"
@@ -34,7 +34,7 @@
             android:layout_height="240dp"
             android:layout_marginTop="16dp"/>
 
-        <com.mime.androidadvanceanimation.view.SearchView
+        <com.mime.commonanim.trimpathview.SearchView
             android:id="@+id/searchview"
             android:layout_width="match_parent"
             android:layout_height="360dp"

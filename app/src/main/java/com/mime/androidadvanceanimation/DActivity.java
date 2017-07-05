@@ -12,8 +12,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Pair;
 import android.view.View;
 
-import com.mime.common_anim_util.animator.CommonAnimator;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -92,15 +90,10 @@ public class DActivity extends AppCompatActivity implements RVAdapter.RVClickLis
         View name = itemView.findViewById(R.id.name);
         View desc = itemView.findViewById(R.id.desc);
 
-//        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this,
-//                Pair.create(headImage, "headImage"),
-//                Pair.create(name, "name"),
-//                Pair.create(desc, "desc"))
-//                .toBundle());
-
-        startActivity(intent, CommonAnimator.transActivity(this,
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this,
                 Pair.create(headImage, "headImage"),
                 Pair.create(name, "name"),
-                Pair.create(desc, "desc")));
+                Pair.create(desc, "desc"))
+                .toBundle());
     }
 }

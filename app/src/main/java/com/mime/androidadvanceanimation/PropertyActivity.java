@@ -9,14 +9,15 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewPropertyAnimator;
-import android.view.animation.AnticipateInterpolator;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
-import android.view.animation.OvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
-import com.mime.common_anim_util.animator.CommonAnimator;
+
+import java.text.DecimalFormat;
 
 /**
  * <p>write the description
@@ -36,35 +37,36 @@ public class PropertyActivity extends AppCompatActivity {
 
     ObjectAnimator anim4;
 
+    DecimalFormat format = new DecimalFormat("#.00");
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_property);
     }
 
+    public void startNumberAnimator(View view) {
+        final TextView txt = (TextView)findViewById(R.id.txt_number);
+        ValueAnimator anim = ValueAnimator.ofFloat(0, 2000);
+        anim.setDuration(2000);
+        anim.setInterpolator(new LinearInterpolator());
+        anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator valueAnimator) {
+                float value = (float)valueAnimator.getAnimatedValue();
+                txt.setText(format.format(value));
+            }
+        });
+        anim.start();
+    }
+
     public void startAnim1(View view) {
         ImageView iv = (ImageView) findViewById(R.id.iv_1);
-//        anim1 = ObjectAnimator.ofFloat(iv, "rotationY", 0, 359);
-//        anim1.setDuration(1000);
-//        anim1.setRepeatCount(1);
-//        anim1.setRepeatMode(ValueAnimator.REVERSE);
-//        anim1.start();
-
-        CommonAnimator.rotateY(iv, 0, 359).pivot(0f, 0.5f).duration(1000).delay(500).repeat(1, ValueAnimator.REVERSE).decelerate().start();
-
-//        CommonAnimator.playTogether(
-//                CommonAnimator.rotateY(iv, 0, 359).repeat(1, ValueAnimator.REVERSE),
-//                CommonAnimator.scaleX(iv, 1, 0.5f).pivot(0.5f, 0.5f).repeat(1, ValueAnimator.REVERSE),
-//                CommonAnimator.scaleY(iv, 1, 0.5f).pivot(0.5f, 0.5f).repeat(1, ValueAnimator.REVERSE)
-//        ).duration(1000).interpolator(new LinearInterpolator()).start();
-
-//        CommonAnimator.scale(iv, 1f, 0.5f).pivot(0.5f, 0.5f).duration(1000).start();
-//
-//        CommonAnimator.playSequentially(
-//                CommonAnimator.rotateY(iv, 0, 359).repeat(1, ValueAnimator.REVERSE),
-//                CommonAnimator.scaleX(iv, 1, 0.5f).repeat(1, ValueAnimator.REVERSE),
-//                CommonAnimator.scaleY(iv, 1, 0.5f).repeat(1, ValueAnimator.REVERSE)
-//        ).duration(1000).interpolator(new LinearInterpolator()).start();
+        anim1 = ObjectAnimator.ofFloat(iv, "rotationY", 0, 359);
+        anim1.setDuration(1000);
+        anim1.setRepeatCount(1);
+        anim1.setRepeatMode(ValueAnimator.REVERSE);
+        anim1.start();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -72,6 +74,7 @@ public class PropertyActivity extends AppCompatActivity {
         final ImageView iv = (ImageView) findViewById(R.id.iv_2);
         anim2 = ValueAnimator.ofFloat(0, 1);
         anim2.setDuration(1000);
+        anim2.setInterpolator(new AccelerateInterpolator());
         anim2.setRepeatCount(1);
         anim2.setRepeatMode(ValueAnimator.REVERSE);
         anim2.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {

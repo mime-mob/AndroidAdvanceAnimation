@@ -4,8 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.SeekBar;
 
-import com.mime.common_anim_util.transpathview.TransPathView;
+import com.mime.commonanim.pathmorphingview.TransPathView;
 
 
 /**
@@ -16,12 +17,15 @@ import com.mime.common_anim_util.transpathview.TransPathView;
  * @see [相关类/方法]
  * @since [产品/模块版本]
  */
-public class CustomSVGActivity2 extends AppCompatActivity implements View.OnClickListener {
+public class CustomSVGActivity2 extends AppCompatActivity
+        implements View.OnClickListener, SeekBar.OnSeekBarChangeListener {
 
     TransPathView transView;
 
-    public static final String HEART = "M99.0,349.0 C193.33,240.67001,283.67,165.33,400.0,99.0 C525.32996,172.0,611.67,246.0,701.0,348.0 C521.67,416.33,433.33,511.66998,400.0,700.0 C356.67,509.0,285.33002,416.0,99.0,349.0";
-    public static final String TWITTER = "M99.0,349.0 C297.33002,346.67,376.67,210.33,400.0,99.0 C432.32996,208.0,506.66998,345.0,701.0,348.0 C629.67,479.33,549.32996,570.67,400.0,700.0 C227.67001,569.0,194.33002,522.0,99.0,349.0";
+    SeekBar seekBar;
+
+    public static final String   HEART = "M99,349 C193,240,283,165,400,99 C525,172,611,246,701,348 C521,416,433,511,400,700 C356,509,285,416,99,349";
+    public static final String TWITTER = "M99,349 C297,346,376,210,400,99 C432,208,506,345,701,348 C629,479,549,570,400,700 C227,569,194,522,99,349";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,10 +35,27 @@ public class CustomSVGActivity2 extends AppCompatActivity implements View.OnClic
         transView.setViewPort(800, 800);
         transView.setPaths(HEART, TWITTER);
         transView.setOnClickListener(this);
+
+        seekBar = (SeekBar)findViewById(R.id.seekbar);
+        seekBar.setMax(100);
+        seekBar.setOnSeekBarChangeListener(this);
     }
 
     @Override
     public void onClick(View view) {
         transView.startTransWithOutRotate();
+//        transView.startTransWithRotate(360);
     }
+
+    @Override
+    public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+        float fraction = progress * 1.0f / seekBar.getMax();
+        transView.setFraction(fraction);
+    }
+
+    @Override
+    public void onStartTrackingTouch(SeekBar seekBar) {}
+
+    @Override
+    public void onStopTrackingTouch(SeekBar seekBar) {}
 }

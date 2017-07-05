@@ -7,14 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.caverock.androidsvg.PreserveAspectRatio;
 import com.caverock.androidsvg.SVG;
 import com.caverock.androidsvg.SVGParseException;
-import com.mime.common_anim_util.animator.CommonAnimator;
 
 import java.util.Set;
-
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -78,9 +74,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void gotoCustomSVG2(View view) {
         startActivity(new Intent(this, CustomSVGActivity2.class));
-    }
-
-    public void gotoAnimPathView(View view) {
-        startActivity(new Intent(this, AnimPathViewActivity.class));
     }
 }

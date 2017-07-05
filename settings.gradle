@@ -1,1 +1,1 @@
-include ':app', ':common-anim-util'
+include ':app', ':common-anim-lib'

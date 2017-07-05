@@ -68,11 +68,5 @@
             android:layout_height="wrap_content"
             android:onClick="gotoCustomSVG2"
             android:text="CustomSVG2"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="gotoAnimPathView"
-            android:text="AnimPathView"/>
     </LinearLayout>
 </ScrollView>

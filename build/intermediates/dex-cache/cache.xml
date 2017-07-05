@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_32fd709ed0900084b8f70f3204185594dc7194e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\AndroidAdvanceAnimation\common-anim-lib\unspecified\jars\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\8\nineoldandroids-2.4.0_abbded98b3396fc5849250e33b573813e1152f7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_dddb5fddd30fc668746c4901bb167f254d9309e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_7df47e222a98c22fe8099e1c7a2fa5a52464f88d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_c64e9f60140564538a750a7e2d5c2b7caa549089\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_fdc2bb70d353b11a44f90caa5fa9815f78636783\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\AndroidAdvanceAnimation\common-anim-lib\unspecified\jars\libs\androidsvg-1.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e1e81b3039fbda226a965006894186c35651f7a4">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\8\androidsvg-1.2.1_660c3ae4d6b6732104031dee22cd62a48d73e1b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_5c1cb8c51db945b90ef485dd2b785e54b1c40d28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_f2b43c5acd149a855797824b08d2192baa788527\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_455b8b8b028be19d2c16c9dd36f5a3213aeed7ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_17f164e4fda8dcac7f5217d1ffced9387b5aff66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_9708d80313aee6cf5d9c7d29362513b9153fadbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_6a3604ead968c0b816498c219a4e5f59ce5ebc23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_013a42b6f966a2ad020db8e5df209e9ffc40ec25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-26.0.0-alpha1_cfe08402e1d6f520e6f2a3175929e20771495a32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_45b2bcc57847c17e8a072525abb6c93bea47e7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidAdvanceAnimation\app\build\intermediates\exploded-aar\AndroidAdvanceAnimation\common-anim-lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="742ae0522d200a2b11d6a5961c7e4c9e5450fbcb">
+        <dex dex="D:\AndroidAdvanceAnimation\app\build\intermediates\transforms\dex\debug\folders\1000\4\AndroidAdvanceAnimation-common-anim-lib-unspecified_036d882b3888b8ed234c35865b33e00318965426\classes.dex" />
+    </item>
+
+</items>

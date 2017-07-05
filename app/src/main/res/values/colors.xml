@@ -4,8 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="bg_search_view">#0082D7</color>
-
     <color name="color_bg">#101010</color>
     <color name="color_normal">#454545</color>
     <color name="color_shine">#ffffff</color>

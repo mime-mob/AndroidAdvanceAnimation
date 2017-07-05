@@ -58,6 +58,4 @@ public class BActivity extends AppCompatActivity {
                 Pair.create(txName, "user_name"))
                 .toBundle());
     }
-
-
 }

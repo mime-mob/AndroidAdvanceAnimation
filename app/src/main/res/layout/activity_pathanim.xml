@@ -6,7 +6,7 @@
                 android:background="#f0f0f0"
                 tools:context=".MainActivity">
 
-    <com.mime.androidadvanceanimation.view.BgForPath
+    <com.mime.androidadvanceanimation.BgForPath
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ffffff"/>
